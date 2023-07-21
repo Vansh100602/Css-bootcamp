@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+
+.card {
+    border: 2px solid lightgray;
+    width: 600px;
+    margin: 60px auto;
+    border-radius: 14px;
+    height: 600px;
+    padding: 10px;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 14px;
+}
+
+.card-content {
+    position: relative;
+}
+
+.timer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    padding: 2px 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.offer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(4, 4, 156, 0.688);
+    margin: 10px;
+    font-size: large;
+}
+
+.promoted {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 15px 18px;
+    color: lightcyan;
+    background-color: rgb(153, 162, 174);
+    font-size: medium;
+    border-radius: 7px;
+}
+
+h2 {
+    margin-left: 15px;
+}
+
+p {
+    margin-top: -8px;
+    font-style: normal;
+    font-weight: lighter;
+    margin-left: 15px;
+}
+
+.delivery {
+    width: 100%;
+    position: relative;
+    padding: 45px;
+    left: 40px;
+    font-style: italic;
+}
+
+h3 {
+    margin-left: 25px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.safety {
+    width: 70px;
+    position: relative;
+    top: 80px;
+}
+
+.border {
+    border-top: 1px solid lightgray;
+}

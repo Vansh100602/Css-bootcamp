@@ -1,0 +1,36 @@
+.zomato-card {
+    position: relative;
+    width: 450px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.zomato-card-img {
+    width: 100%;
+    border-radius: 14px;
+}
+
+.zomato-content {
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* this is for exact center*/
+    color: white;
+    position: absolute;
+    /* bottom: 60px;
+    margin-left: 80px; */
+    text-align: center;
+}
+
+.input {
+    width: 50%;
+    padding: 8px 8px;
+    margin: 8px 0;
+}
+
+h1 {
+    color: red;
+}

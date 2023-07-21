@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.bali {
+    width: 700px;
+    position: relative;
+    margin: 60px auto;
+}
+
+.bali-img {
+    width: 100%;
+    border-radius: 14px;
+    opacity: 0.9;
+}
+
+.bali-content {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.btn {
+    background-color: black;
+    padding: 15px 30px;
+    border: none;
+    font-size: 16px;
+    border-radius: 40px;
+    color: white;
+}
